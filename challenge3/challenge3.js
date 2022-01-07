@@ -33,18 +33,35 @@ console.log(compWinner);*/
 
 
 
-//Bonus 2
-const dolphinsAverageScore = (97 + 112 + 101) / 3;
-const kolasAverageScore = (109 + 95 + 106) / 3;
-console.log(dolphinsAverageScore, kolasAverageScore);
+// //Bonus 2
+// const dolphinsAverageScore = (97 + 112 + 101) / 3;
+// const kolasAverageScore = (109 + 95 + 106) / 3;
+// console.log(dolphinsAverageScore, kolasAverageScore);
 
-if (dolphinsAverageScore > kolasAverageScore && dolphinsAverageScore >= 100) {
-    console.log("dolphins wins the trophy🏆");
+// if (dolphinsAverageScore > kolasAverageScore && dolphinsAverageScore >= 100) {
+//     console.log("dolphins wins the trophy🏆");
 
-} else if (kolasAverageScore > dolphinsAverageScore && kolasAverageScore >= 100) {
-    console.log("kolas wins the trophy 🏆");
-} else if (dolphinsAverageScore === kolasAverageScore && dolphinsAverageScore >= 100 && kolasAverageScore >= 100) {
-    console.log("Both teams wins the trophy🏆");
+// } else if (kolasAverageScore > dolphinsAverageScore && kolasAverageScore >= 100) {
+//     console.log("kolas wins the trophy 🏆");
+// } else if (dolphinsAverageScore === kolasAverageScore && dolphinsAverageScore >= 100 && kolasAverageScore >= 100) {
+//     console.log("Both teams wins the trophy🏆");
 
-}
+// }
+// const day = "";
+// if (day === "wednesday") {
+//     console.log("Today is the code day");
 
+// } else if ("monday" === day) {
+//     console.log("take dog for a walk");
+
+// } else if ("tuesday" === day) {
+//     console.log("write coding");
+
+// } else {
+//     console.log("Today is the rest day");
+// }
+
+//conditional operator
+const age = 25;
+age >= 20 ? console.log('i can drink wine🍷') :
+    console.log('i have to drink water🚰');
